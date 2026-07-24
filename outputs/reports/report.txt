@@ -1,0 +1,16 @@
+========================================
+ STOCK MARKET BACKTEST REPORT
+========================================
+
+Initial Capital     : Rs 100,000.00
+Final Capital       : Rs 143,653.11
+
+Strategy Return     : 43.65%
+Buy & Hold Return   : 121.62%
+
+Sharpe Ratio        : 0.49
+Maximum Drawdown    : -29.09%
+
+Completed Trades    : 15
+
+========================================
