@@ -60,6 +60,43 @@ The strategy is then compared against a Buy & Hold investment.
 | Maximum Drawdown  |     -29.09% |
 | Completed Trades  |          15 |
 
+## Visualizations
+
+## Screenshots
+
+### Trading Strategy
+
+<p align="center">
+<img src="outputs/charts/trading_strategy.png" width="900">
+</p>
+---
+
+### Portfolio Value
+
+<p align="center">
+<img src="outputs/charts/portfolio.png" width="900">
+</p>
+---
+
+### Strategy vs Buy & Hold
+
+<p align="center">
+<img src="outputs/charts/strategy_vs_buy_hold.png" width="900">
+</p>
+---
+
+### Moving Averages
+
+<p align="center">
+<img src="outputs/charts/ma20_ma50.png" width="900">
+</p>
+---
+
+### Daily Return Distribution
+
+<p align="center">
+<img src="outputs/charts/daily_return_histogram.png" width="900">
+</p>
 ---
 
 ## Future Improvements
@@ -73,11 +110,41 @@ The strategy is then compared against a Buy & Hold investment.
 * Interactive Dashboard using Streamlit
 
 ---
+## Project Structure
+
+Stock-Market-Analysis
+│
+├── notebooks
+│   └── moving_average_backtesting.ipynb
+│
+├── outputs
+│   ├── charts
+│   └── reports
+│
+├── requirements.txt
+└── README.md
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/lokeshrai1/Stock-Market-Analysis.git
+pip install -r requirements.txt
+notebooks/moving_average_backtesting.ipynb
+
 
 ## Author
 
-**Lokesh Rai**
+Lokesh Rai
 
-B.Tech Computer Science Student
+B.Tech Computer Science Engineering
 
-Interested in Data Science, Quantitative Finance, Machine Learning and Artificial Intelligence.
+Aspiring Data Scientist | Quantitative Finance Enthusiast
+
+Currently learning:
+
+- Python
+- Data Science
+- Machine Learning
+- Quantitative Finance
