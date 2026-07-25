@@ -112,6 +112,7 @@ The strategy is then compared against a Buy & Hold investment.
 ---
 ## Project Structure
 
+```text
 Stock-Market-Analysis
 │
 ├── notebooks
@@ -123,20 +124,33 @@ Stock-Market-Analysis
 │
 ├── requirements.txt
 └── README.md
+```
 
+---
 ## Installation
 
 Clone the repository
 
 ```bash
 git clone https://github.com/lokeshrai1/Stock-Market-Analysis.git
-pip install -r requirements.txt
-notebooks/moving_average_backtesting.ipynb
 
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Open the notebook
+
+```text
+notebooks/moving_average_backtesting.ipynb
+```
+
+---
 
 ## Author
 
-Lokesh Rai
+**Lokesh Rai**
 
 B.Tech Computer Science Engineering
 
